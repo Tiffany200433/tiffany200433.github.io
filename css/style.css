@@ -48,20 +48,18 @@
 }
 
 #st-control-2, #st-control-2 + a {
-	left: 20%;
+	left: 25%;
 }
 
 #st-control-3, #st-control-3 + a {
-	left: 40%;
+	left: 50%;
 }
 
 #st-control-4, #st-control-4 + a {
-	left: 60%;
+	left: 75%;
 }
 
-#st-control-5, #st-control-5 + a {
-	left: 80%;
-}
+
 
 .st-container > input:checked + a,
 .st-container > input:checked:hover + a{
