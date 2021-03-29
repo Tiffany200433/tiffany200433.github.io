@@ -26,10 +26,10 @@
 .st-container > a {
 	z-index: 10;
 	font-weight: 700;
-	background: #e23a6e;
+	background: #4D8CD7;
 	color: #fff;
 	text-align: center;
-	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
+	text-shadow: 1px 1px 1px rgba(0,98,215,0.2);
 }
 
 /* "Fix" for percentage rounding: add a background bar pseudo element with the same color like the labels */
@@ -38,7 +38,7 @@
 	position: fixed;
 	width: 100%;
 	height: 34px;
-	background: #e23a6e;
+	background: #0062D7;
 	z-index: 9;
 	bottom: 0;
 }
@@ -65,7 +65,7 @@
 
 .st-container > input:checked + a,
 .st-container > input:checked:hover + a{
-	background: #821134;
+	background: #0062D7;
 }
 
 .st-container > input:checked + a:after,
@@ -77,18 +77,18 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #821134;
+	border-bottom-color: #0062D7;
 	border-width: 20px;
 	left: 50%;
 	margin-left: -20px;
 }
 
 .st-container > input:hover + a{
-	background: #AD244F;
+	background: #0062D7;
 }
 
 .st-container > input:hover + a:after {
-	border-bottom-color: #AD244F;
+	border-bottom-color: #0062D7;
 }
 
 .st-scroll,
@@ -163,7 +163,7 @@
 	top: 0px;
 	left: 50%;
 	margin-left: -100px;
-	background: #fa96b5;
+	background: #91ADDC;
 	-webkit-transform: translateY(-50%) rotate(45deg);
 	-moz-transform: translateY(-50%) rotate(45deg);
 	-o-transform: translateY(-50%) rotate(45deg);
@@ -175,7 +175,7 @@
     content: attr(data-icon);
     font-family: 'RaphaelIcons';
     color: #fff;
-	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
+	text-shadow: 1px 1px 1px rgba(0,98,215,0.2);
 	position: absolute;
 	width: 200px;
 	height: 200px;
@@ -193,8 +193,8 @@
 }
 
 .st-panel h2 {
-	color: #e23a6e;
-	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
+	color: #91ADDC;
+	text-shadow: 1px 1px 1px rgba(0,98,215,0.2);
 	position: absolute;
 	font-size: 54px;
 	font-weight: 900;
@@ -359,10 +359,10 @@
 
 .st-color,
 .st-deco{
-	background: #fa96b5;
+	background: #91ADDC;
 }
 .st-color [data-icon]:after {
-	color: #fa96b5;
+	color: #91ADDC;
 }
 .st-color .st-deco {
 	background: #fff;
