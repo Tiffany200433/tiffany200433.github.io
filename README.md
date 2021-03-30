@@ -1,5 +1,4 @@
 ### Hi there 👋 <br>
-###### Thanks to jQuery之家 for sharign this resource, link: http://www.htmleaf.com/html5/html5muban/20141126596.html
 
 <!--
 **tiffany200433/tiffany200433** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
