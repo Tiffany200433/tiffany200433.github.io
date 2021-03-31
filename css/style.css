@@ -408,3 +408,80 @@
 		transform: rotate(-45deg) translateY(15%);
 	}
 }
+
+
+/* 价格表位置 */
+.pricing {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center; /* 价格表居中 */
+	width: 100%;
+	margin: 0 auto 3em;
+}
+/*框框*/
+.pricing__standard {
+	position: relative; /* 价格表置于最顶层  */
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	text-align: left; /* 标准级+价格位置 */
+	-webkit-flex: 0 1 330px;
+	flex: 0 1 330px; /* 价格表宽度  */
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0.5em; /* 价格表各框之间的间隔 */
+	margin-top: 800px;
+ 	padding: 2em 2.5em; /* 价格表各框长度, 各框两侧的边距 */
+ 	color: #fff;
+ 	background: #367FD7;
+}
+
+/*标准级*/
+.pricing__title {
+	font-size: 2em;
+	font-weight: 300;
+	margin: 0 0 0.15em;
+	color: #fff;
+}
+
+/*范围*/
+.pricing__scope {
+	padding: 0 0 0.5em;
+	margin: 20px 5px 0px 0px;  /*上右下左*/
+	text-align: justify;
+	font-weight: 350;  /*字的亮度*/
+	color: #fff; /*适用范围      这一段怎么改不动？？？可能是因为用的p,啊 果然和字体有关*/
+}
+/*价格*/
+.pricing__price {
+	font-size: 3em;
+	font-weight: 300;
+	padding: 0.85em 0; /*价格  方框长短*/
+}
+
+/*货币*/
+.pricing__currency {
+	font-size: 0.65em;
+	vertical-align: super;
+	color: #fff;
+}
+/*千字*/
+.pricing__period {
+	font-size: 0.35em;
+	padding: 0 0 0 0.5em;
+	color: #fff;
+}
+/* 流程列表  */
+.pricing__process-list {
+	text-align: left; /* 流程左对齐  */
+	font-size: 0.95em;
+	line-height: 1.5;
+	padding: 0 0 2.5em; /* 左边距  */
+	color: #fff;
+}
+
