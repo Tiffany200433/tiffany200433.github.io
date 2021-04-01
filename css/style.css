@@ -26,10 +26,10 @@
 .st-container > a {
 	z-index: 10;
 	font-weight: 700;
-	background: #4D8CD7; /*#e23a6e深粉色*/
-	color: #fff; /*白色*/
+	background: #4D8CD7; 
+	color: #fff; 
 	text-align: center;
-	text-shadow: 1px 1px 1px rgba(0,98,215,0.2); /*rgba(151,24,64,0.2)深粉色点击以后的颜色？？？哪儿*/
+	text-shadow: 1px 1px 1px rgba(0,98,215,0.2); 
 }
 
 /* "Fix" for percentage rounding: add a background bar pseudo element with the same color like the labels */
@@ -38,7 +38,7 @@
 	position: fixed;
 	width: 100%;
 	height: 34px;
-	background: #0062D7; /*#e23a6e ？？？这是哪儿*/
+	background: #0062D7; 
 	z-index: 9;
 	bottom: 0;
 }
@@ -62,7 +62,7 @@
 
 .st-container > input:checked + a,
 .st-container > input:checked:hover + a{
-	background: #0062D7; /* 点击后方框的颜色，和尖尖一样，尖尖在下面 #821134深粉色点击以后的颜色*/
+	background: #0062D7;
 }
 
 .st-container > input:checked + a:after,
@@ -74,18 +74,18 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #0062D7; /*点击尖尖的色*/
+	border-bottom-color: #0062D7; 
 	border-width: 20px;
 	left: 50%;
 	margin-left: -20px;
 }
 
 .st-container > input:hover + a{
-	background: #0062D7;/*#AD244F深粉色点击以后的颜色*/
+	background: #0062D7;
 }
 
 .st-container > input:hover + a:after {
-	border-bottom-color: #0062D7; /*#0062D7 #AD244F深粉色点击以后的颜色*/
+	border-bottom-color: #0062D7; 
 }
 
 .st-scroll,
@@ -153,7 +153,7 @@
 	top: 0px;
 	left: 50%;
 	margin-left: -100px;
-	background: #91ADDC; /*哪儿？*/
+	background: #91ADDC; 
 	-webkit-transform: translateY(-50%) rotate(45deg);
 	-moz-transform: translateY(-50%) rotate(45deg);
 	-o-transform: translateY(-50%) rotate(45deg);
@@ -165,7 +165,7 @@
     content: attr(data-icon);
     font-family: 'RaphaelIcons';
     color: #fff;
-	text-shadow: 1px 1px 1px rgba(0,98,215,0.2); /*rgba(151,24,64,0.2)*/
+	text-shadow: 1px 1px 1px rgba(0,98,215,0.2); 
 	position: absolute;
 	width: 200px;
 	height: 200px;
@@ -183,8 +183,8 @@
 }
 
 .st-panel h2 {
-	color: #91ADDC; /*粉色大字*/
-	text-shadow: 1px 1px 1px rgba(0,98,215,0.2); /*#AD244F  rgba(151,24,64,0.2)*/
+	color: #91ADDC; 
+	text-shadow: 1px 1px 1px rgba(0,98,215,0.2); 
 	position: absolute;
 	font-size: 54px;
 	font-weight: 900;
@@ -269,7 +269,7 @@
 	text-align: center;
 	font-size: 16px;
 	line-height: 22px;
-	color: #8b8b8b;  /*灰色，应该是白背景下的字的颜色*/
+	color: #8b8b8b;  
 	z-index: 2;
 	padding: 0;
 	width: 50%;
@@ -350,10 +350,10 @@
 
 .st-color,
 .st-deco{
-	background: #91ADDC;  /*#fa96b5浅粉色，粉背景色*/
+	background: #91ADDC;  
 }
 .st-color [data-icon]:after {
-	color: #91ADDC;  /*#fa96b5浅粉色，表情粉背景色*/
+	color: #91ADDC;  
 }
 .st-color .st-deco {
 	background: #fff;
@@ -403,38 +403,38 @@
 	}
 }
 
-/* 价格表位置 */
+/* 价格表 */
 .pricing {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 	-webkit-justify-content: center;
-	justify-content: center; /* 价格表居中 */
+	justify-content: center; 
 	width: 100%;
 	margin: 0 auto 3em;
 }
-/*框框设置*/
+
 .pricing__standard {
-	position: relative; /* 价格表置于最顶层  */
+	position: relative; 
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-direction: column;
 	flex-direction: column;
 	-webkit-align-items: stretch;
 	align-items: stretch;
-	text-align: left; /* 标准级+价格位置 */
+	text-align: left; 
 	-webkit-flex: 0 1 330px;
-	flex: 0 1 330px; /* 价格表宽度  */
+	flex: 0 1 330px; 
 	font-family: 'Roboto Condensed', sans-serif;
-	margin: 0.5em; /* 价格表各框之间的间隔 */
+	margin: 0.5em; 
 	margin-top: 500px;
- 	padding: 0.5em 2.5em; /* 价格表各框长度, 各框两侧的边距 */
+ 	padding: 0.5em 2.5em; 
  	color: #fff;
  	background: #367FD7;
 }
 
-/*标准级*/
+
 .pricing__title {
 	font-size: 2em;
 	font-weight: 300;
@@ -442,39 +442,39 @@
 	color: #fff;
 }
 
-/*范围*/
+
 .pricing__scope {
 	padding: 0 0 0.5em;
-	margin: 20px 5px 0px 0px;  /*上右下左*/
+	margin: 20px 5px 0px 0px;  
 	text-align: justify;
-	font-weight: 350;  /*字的亮度*/
-	color: #fff; /*适用范围      这一段怎么改不动？？？可能是因为用的p,啊 果然和字体有关*/
+	font-weight: 350;  
+	color: #fff; 
 }
-/*价格*/
+
 .pricing__price {
 	font-size: 3em;
 	font-weight: 300;
-	padding: 0.85em 0; /*价格  方框长短*/
+	padding: 0.85em 0; 
 }
 
-/*货币*/
+
 .pricing__currency {
 	font-size: 0.65em;
 	vertical-align: super;
 	color: #fff;
 }
-/*千字*/
+
 .pricing__period {
 	font-size: 0.35em;
 	padding: 0 0 0 0.5em;
 	color: #fff;
 }
-/* 流程列表  */
+
 .pricing__process-list {
-    text-align: left; /* 流程左对齐  */
+    text-align: left; 
 	font-size: 0.95em;
 	line-height: 1.5;
-	padding: 0 0 2.5em; /* 左边距  */
+	padding: 0 0 2.5em;
 	color: #fff;
 }
 
