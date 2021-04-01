@@ -279,6 +279,24 @@
 	color: #fff;
 }
 
+.st-panel h5 {
+	position: absolute;
+	text-align: left;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 350;
+	color: #f6f6f6;
+	z-index: 2;
+	padding: 0;
+	width: 50%;
+	left: 25%;
+	top: 50%;
+	margin: -10px 0 0 0;
+	-webkit-backface-visibility: hidden;
+	font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+}
+
+
 .st-panel p {
 	position: absolute;
 	text-align: center;
