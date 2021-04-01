@@ -264,6 +264,21 @@
 	}
 }
 
+.st-panel h3 {
+    font-size: 2em;
+	font-weight: 300;
+	margin: 0 0 0.15em;
+	color: #fff;
+}
+
+.st-panel h4 {
+	padding: 0 0 0.5em;
+	margin: 20px 5px 0px 0px;
+	text-align: justify;
+	font-weight: 350;
+	color: #fff;
+}
+
 .st-panel p {
 	position: absolute;
 	text-align: center;
@@ -435,37 +450,21 @@
 }
 
 
-.pricing__title {
-	font-size: 2em;
-	font-weight: 300;
-	margin: 0 0 0.15em;
-	color: #fff;
-}
-
-
-.pricing__scope {
-	padding: 0 0 0.5em;
-	margin: 20px 5px 0px 0px;  
-	text-align: justify;
-	font-weight: 350;  
-	color: #fff; 
-}
-
 .pricing__price {
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 300;
 	padding: 0.85em 0; 
 }
 
 
 .pricing__currency {
-	font-size: 0.65em;
+	font-size: 0.45em;
 	vertical-align: super;
 	color: #fff;
 }
 
 .pricing__period {
-	font-size: 0.35em;
+	font-size: 0.45em;
 	padding: 0 0 0 0.5em;
 	color: #fff;
 }
