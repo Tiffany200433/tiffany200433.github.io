@@ -436,6 +436,7 @@
 	}
 }
 
+
 /* 价格表 */
 .pricing {
 	display: -webkit-flex;
@@ -443,9 +444,10 @@
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 	-webkit-justify-content: center;
-	justify-content: center; 
+	justify-content: center;
 	width: 100%;
 	margin: 0 auto 3em;
+	margin-top: 550px;
 }
 
 .pricing__standard {
@@ -457,17 +459,15 @@
 	-webkit-align-items: stretch;
 	align-items: stretch;
 	text-align: left; 
-	-webkit-flex: 0 1 330px;
-	flex: 0 1 330px; 
+	-webkit-flex: 0 1 300px;
+	flex: 0 1 300px; /*框宽*/
 	font-family: 'Roboto Condensed', sans-serif;
-	margin: 0.5em; 
-	margin-top: 500px;
- 	padding: 0.5em 2.5em; 
+	margin: 0.5em; /*框间距*/
+ 	padding: 2.5em 2.5em; /*上下-左右*/
  	color: #fff;
  	background: #91ADDC;
-	border:1.5px solid white;
+ 	border:1.5px solid white;
 }
-
 
 .pricing__price {
 	font-size: 2em;
