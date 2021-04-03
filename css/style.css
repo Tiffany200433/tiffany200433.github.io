@@ -458,12 +458,12 @@
 	-webkit-justify-content: center;
 	justify-content: center;
 	width: 100%;
-	margin: 580px auto 4em;
+	margin: 570px auto 4em;
 }
 
 @media screen and (max-width: 520px) {
 	.pricing {
-		margin: 580px auto 4em;;
+		margin: 550px auto 4em;
 	}
 }
 
@@ -644,7 +644,7 @@ img {
 
 @media screen and (max-width: 520px) {
 	.MochiBox {
-		margin: 380px auto 4em;;
+		margin: 350px auto 4em;;
 	}
 }
 
