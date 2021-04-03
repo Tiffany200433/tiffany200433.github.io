@@ -641,6 +641,13 @@ img {
           user-select: none;
     z-index: 0;
 }
+
+@media screen and (max-width: 520px) {
+	.MochiBox {
+		margin: 380px auto 4em;;
+	}
+}
+
 .MochiBox .MochiShiba {
   z-index: 0;
 }
