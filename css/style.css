@@ -515,7 +515,7 @@ img {
     display: flex;
     justify-content: center;
     align-items:center;
-    margin: 0px auto 3em;
+    margin: auto;
 }
 
 /*contact session: cute dog effect click */
