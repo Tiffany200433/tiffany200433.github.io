@@ -462,11 +462,6 @@
 	margin-top: 600px;
 }
 
-@media screen and (max-width: 520px) {
-	.pricing{margin-top:110%;}
-	}
-
-
 .pricing__standard {
 	position: relative; 
 	display: -webkit-flex;
