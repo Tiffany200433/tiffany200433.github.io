@@ -458,7 +458,13 @@
 	-webkit-justify-content: center;
 	justify-content: center;
 	width: 100%;
-	margin: 580 auto 4em;
+	margin: 580px auto 4em;
+}
+
+@media screen and (max-width: 520px) {
+	.pricing {
+		margin: 580px auto 4em;;
+	}
 }
 
 .pricing__standard {
